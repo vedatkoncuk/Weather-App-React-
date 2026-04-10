@@ -1,14 +1,8 @@
 import '../src/App.css'
-import Search from './components/search'
+import Weather from './components/weather';
 
 function App() {
-
-
-  return (
-    <div>
-      <Search />
-    </div>
-  )
+  return <Weather />;
 }
 
-export default App
+export default App;
